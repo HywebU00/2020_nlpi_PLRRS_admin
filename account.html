@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="zh-Hant" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>公共出借權登記系統</title>
+    <!--HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries [if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+<![endif]-->
+<!-- pg_calendar -->
+<link rel="stylesheet" href="vendor/pg_calendar/css/pignose.calendar.css">
+<!-- hyUI css -->
+<link rel="stylesheet" href="css/hyui.css">
+<!-- favicon -->
+<link href="images/favicon.png" rel="icon" type="image/x-icon">
+
+</head>
+
+<body>
+    <!-- 直接跳主內容區 -->
+    <a class="goCenter" href="#center" tabindex="1">按Enter到主內容區</a>
+    <!-- wrapper Start -->
+    <div class="wrapper">
+        <!-- header Start -->
+        <!-- header、block1 background同張圖需套2個位置，圖檔名稱:背景1(mainbg.jpg)、背景2(mainbg2.jpg)，可供客戶自行上稿 -->
+        <header class="header full">
+            <div class="container">
+                <a class="accesskey" href="#aU" id="aU" accesskey="U" title="網站標題" tabindex="2">:::</a>
+                <div class="weltxt">歡迎使用，Admin1024 (<a href="#">個人設定</a>)｜<span class="logintime">前次登入: 2020/2/1 15:33</span></div>
+                <!-- navigation Start -->
+                <nav class="navigation">
+                    <!-- 一組ul預設靠右 -->
+                    <!-- 兩組ul已寫JQ靠左靠右 -->
+                    <ul>
+                        <li><a href="#">登出</a></li>
+                    </ul>
+                </nav>
+                <!-- navigation End -->
+                <h1>
+                    <a href="#"><img src="images/logo.png" alt="公共出借權登記系統" /></a>
+                </h1>
+
+                <!-- noscript -->
+                <noscript> 您的瀏覽器不支援JavaScript語法，JavaScript語法並不影響內容的陳述。您可使用按鍵盤上的Ctrl鍵+ (+)鍵放大/(-)鍵縮小來改變字型大小；回到上一頁可使用瀏覽器提供的 Alt+左方向鍵(←) 快速鍵功能；列印可使用瀏覽器提供的(Ctrl+P)功能。您的瀏覽器，不支援script語法，若您的瀏覽器無法支援請點選此超連結 <a href="#">網站導覽</a>
+                </noscript>
+                <!-- menu Start -->
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#">使用者(會員)管理</a>
+                            <ul>
+                                <li><a href="#">第二層選單</a></li>
+                                <li><a href="#">會員設定</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">書籍登記管理</a>
+                            <ul>
+                                <li><a href="#">匯入借閱/書目清單</a></li>
+                                <li><a href="#">審核登記作品</a></li>
+                                <li><a href="#">登記作品設定</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">統計與結算管理</a>
+                            <ul>
+                                <li><a href="#">第二層選單</a></li>
+                                <li><a href="#">第二層選單</a></li>
+                                <li><a href="#">第二層選單</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">網站管理</a></li>
+                    </ul>
+                </nav>
+                <!-- menu End -->
+            </div>
+        </header>
+        <!-- header End -->
+        <!-- main Start -->
+        <div id="center" class="main innerpage">
+            <a class="accesskey" href="#aC" id="aC" accesskey="C" title="主要內容區">:::</a>
+
+            <div class="flex-container">
+
+                <!-- contentbox star -->
+                <div class="contentbox">
+                    <div class="breadcrumb">
+                        <ul>
+                            <li><a href="#">首頁</a></li>
+                            <li><a href="#">使用者(會員管理)</a></li>
+                            <li>帳號管理</li>
+                        </ul>
+                    </div>
+                    <!-- h2節點 -->
+                    <h2 class="title">帳號管理</h2>
+
+                    <section class="lp">
+                        <!-- function功能區塊 -->
+                        <div class="function">
+                            <ul>
+                                <li class="icon_back"><a href="#">回上一頁</a></li>
+                            </ul>
+                        </div>
+                        <!-- accountbox Start -->
+                        <section class="accountbox">
+                            <div class="container">
+                                <h3>註冊資訊</h3>
+                                <!-- sform star -->
+                                <div class="sform"> 
+                                    <form action="" class="form_grid">
+
+                                        <div class="form_grp">
+                                            <fieldset>
+                                                <legend class="form_title"><abbr class="necessary" title="為必填(選)欄位,不能為空白。">*</abbr>帳號身分</legend>
+                                                <div class="form_content">
+                                                    <div class="check_grp form_inline">
+                                                        <label><input type="checkbox" name="" value="">出版者</label>
+                                                        <label><input type="checkbox" name="" value="" checked="">作者</label>
+                                                    </div>
+                                                </div>
+                                            </fieldset>
+                                        </div>
+
+                                        <div class="form_grp">
+                                            <fieldset>
+                                                <legend class="form_title"><abbr class="necessary" title="為必填(選)欄位,不能為空白。">*</abbr>身分類型</legend>
+                                                <div class="form_content">
+                                                    <div class="radio_grp form_inline">
+                                                        <label><input type="radio" name="sampleRadio5" value="" checked="">個人</label>
+                                                        <label><input type="radio" name="sampleRadio5" value="">團體／公司</label>
+                                                    </div>
+                                                </div>
+                                            </fieldset>
+                                        </div>
+
+                                        <div class="form_grp">
+                                            <label for="username" class="form_title"><abbr class="necessary" title="為必填(選)欄位,不能為空白。">*</abbr>帳號</label>
+                                            <div class="form_content">
+                                                <input type="text" id="username" value="" placeholder="A123456789" style="width:20em;">
+                                                <p>身份證字號或統一編號</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="form_grp">
+                                            <label for="username" class="form_title">電子郵件</label>
+                                            <div class="form_content">
+                                                <input type="text" id="username" value="" placeholder="電子郵件" style="width:20em;"><span class="noverify">未驗證</span>
+                                                <p>相關通知會透過此email聯繫作者本人</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="form_grp">
+                                            <label for="password" class="form_title">密碼</label>
+                                            <div class="form_content">
+                                                <button class="btn" id="openModal">重設密碼</button>
+                                            </div>
+                                        </div>
+                                        <!--視窗-->
+                                        <div id="modal1" class="modal">
+                                            <h2>重設密碼</h2>
+                                            <p>請確認email、再點選發送重設信，系統會發送驗證/變更密碼通知給該email<br>
+                                            若此帳號為出版者代註冊者，則該出版者無法再編修此帳號（但仍可代登記選入作者）</p>
+                                            <div class="form_grp">
+                                                <label for="username" class="form_title">輸入email</label>
+                                                <div class="form_content">
+                                                    <input type="text" id="username" value="" placeholder="liucc@hyweb.com.tw" style="width:20em;">
+                                                    <p>變更的email會儲存回個人資料</p>
+                                                </div>
+                                            </div>
+                                            <div class="form_grp">
+                                                <label for="username" class="form_title">再次確認email</label>
+                                                <div class="form_content">
+                                                    <input type="text" id="username" value="" placeholder="再次確認email" style="width:20em;">
+                                                </div>
+                                            </div>
+                                            <div class="btn_grp">
+                                                <input name="" type="submit" value="發送重設信" />
+                                            </div>
+                                        </div>
+
+                                        <div class="form_grp">
+                                            <label for="username" class="form_title"><abbr class="necessary" title="為必填(選)欄位,不能為空白。">*</abbr>名稱</label>
+                                            <div class="form_content">
+                                                <input type="text" id="username" value="" placeholder="劉阿淇" style="width:20em;">
+                                                <p>作者的真實姓名或團體公司名</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="form_grp">
+                                            <label for="" class="form_title"><abbr class="necessary" title="為必填(選)欄位,不能為空白。">*</abbr>地址</label>
+                                            <div class="form_content form_inline address">
+                                                <select name="" id="">
+                                                    <option value="">台北市</option>
+                                                    <option value="">新北市</option>
+                                                    <option value="">桃園市</option>
+                                                    <option value="">新竹市</option>
+                                                    <option value="">...</option>
+                                                </select>
+                                                <select name="" id="">
+                                                    <option value="">鄉鎮區</option>
+                                                    <option value="">中正區</option>
+                                                    <option value="">大安區</option>
+                                                    <option value="">信義區</option>
+                                                    <option value="">北投區</option>
+                                                    <option value="">...</option>
+                                                </select>
+                                                <input name="" type="text" value="共用戶籍地址或公司登記地址">
+                                                <p>戶籍地址或公司登記地址</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="form_grp">
+                                            <label for="" class="form_title">聯絡地址</label>
+                                            <div class="form_content form_inline address">
+                                                <select name="" id="">
+                                                    <option value="">請選擇</option>
+                                                    <option value="">台北市</option>
+                                                    <option value="">新北市</option>
+                                                    <option value="">桃園市</option>
+                                                    <option value="">新竹市</option>
+                                                    <option value="">...</option>
+                                                </select>
+                                                <select name="" id="">
+                                                    <option value="">請選擇</option>
+                                                    <option value="">中正區</option>
+                                                    <option value="">大安區</option>
+                                                    <option value="">信義區</option>
+                                                    <option value="">北投區</option>
+                                                    <option value="">...</option>
+                                                </select>
+                                                <label>
+                                                    <input type="checkbox" name="" value="" checked="">同戶籍地址</label>
+                                                    <input name="" type="text" value="請輸入">
+                                                </div>
+                                            </div>
+
+                                            <div class="form_grp">
+                                                <label for="" class="form_title"><abbr class="necessary" title="為必填(選)欄位,不能為空白。">*</abbr>聯絡電話</label>
+                                                <div class="form_content form_inline tel">
+                                                    <div class="stitle">市內電話</div>
+                                                    <input name="" type="text" value="" placeholder="886" style="width:auto!important;">
+                                                    <input name="" type="text" value="" placeholder="12345678" style="width:20em!important;">
+                                                    <div class="stitle">行動電話</div>
+                                                    <input name="" type="text" value="" placeholder="0900000000" style="width:32em!important;">
+                                                    <p>連絡電話可二選一填寫</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="form_grp">
+                                                <label for="username" class="form_title">作者筆名／團體別名</label>
+                                                <div class="form_content">
+                                                    <div class="keywordPool">
+                                                       <ul>
+                                                          <li class="pdLabel" data-value="123">123<span class="removeThis"></span></li><li class="pdLabel" data-value="456">456<span class="removeThis"></span></li><li class="addOne"><input type="text" placeholder="" tempph=""><span class="addThis">+</span></li>
+                                                      </ul>
+                                                  </div>
+                                                  <p>可輸入多組作者筆名提供審核與比對。多組請使用ENTER或「,」分隔</p>
+                                              </div>
+                                          </div>
+
+                                          <hr>
+
+                                          <div class="form_grp">
+                                            <label for="" class="form_title"><abbr class="necessary" title="為必填(選)欄位,不能為空白。">*</abbr>匯款帳號</label>
+                                            <div class="form_content form_inline address">
+                                                <input name="" type="text" value="劉阿淇" style="width:20em;">
+                                                <label><input type="checkbox" name="" value="" checked="">同真實姓名</label>
+                                                <br>
+                                                <select name="" id="">
+                                                    <option value="">請選擇</option>
+                                                    <option value=""> 002 XX銀行</option>
+                                                    <option value=""> 006 XX銀行</option>
+                                                </select>
+                                                <input name="" type="text" value="01234567890123" style="width:30em;">
+                                                <p>匯款帳號為本人/公司戶頭。戶名需與姓名或公司、團體名相同</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="form_grp">
+                                            <label for="" class="form_title"><abbr class="necessary" title="為必填(選)欄位,不能為空白。">*</abbr>驗證模式</label>
+                                            <div class="form_content form_inline">
+                                                <div class="upload_grp">
+                                                   <input class="upload_file" type="text" value="">
+                                                   <div class="upload_btn">
+                                                    <span>上傳證明文件</span>
+                                                    <input type="file" class="check_file" multiple/>
+                                                </div>
+                                                <ul>
+                                                    <li><a href="#">A123456789-委託書.pdf</a></li>
+                                                </ul>                                      
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form_grp">
+                                        <label for="" class="form_title">建立日期時間</label>
+                                        <div class="form_content">
+                                            2020/2/11 14:22
+                                        </div>
+                                    </div>
+
+                                    <div class="form_grp">
+                                        <label for="" class="form_title">最後編修日期時間</label>
+                                        <div class="form_content">
+                                            2020/2/18 16:33
+                                        </div>
+                                    </div>
+
+                                    <div class="form_grp">
+                                        <label for="" class="form_title">註冊模式</label>
+                                        <div class="form_content">
+                                            出版者代註冊（代註冊出版帳號：16541333, 凌網科技）
+                                        </div>
+                                    </div>
+
+                                    <hr>
+
+                                    <h3>審核資訊</h3>
+
+                                    <div class="form_grp">
+                                        <label for="selectSample" class="form_title"><abbr class="necessary" title="為必填(選)欄位,不能為空白。">*</abbr>審核狀態</label>
+                                        <div class="form_content form_inline">
+                                            <select id="selectSample" name="" disabled=”disabled” class="disabled" style="width:20em;">
+                                                <option value="" selected="selected">審核通過</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="form_grp">
+                                        <label for="" class="form_title"><abbr class="necessary" title="為必填(選)欄位,不能為空白。">*</abbr>理由</label>
+                                        <div class="form_content">
+                                            <textarea name="" id="address" cols="30" rows="10"></textarea>
+                                            <p>審核理由將顯示於會員端備註欄位</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="form_grp">
+                                        <label for="" class="form_title">審核紀錄</label>
+                                        <div class="form_content">
+                                            <ol class="verify">
+                                                <li>
+                                                    2020/3/17 14:21<span class="fail">審核不通過</span><span class="a-neme">（審核者：Admin1123, 管理員1123）</span>
+                                                    <div class="reason">理由：委託具結文件不符合，請重新上傳</div>
+                                                </li>
+                                                <li>
+                                                    2020/3/19 11:22<span class="success">審核通過</span><span class="a-neme">（審核者：Admin1123, 管理員1123）</span>
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </div>
+
+                                    <div class="form_grp">
+                                        <label for="selectSample" class="form_title"><abbr class="necessary" title="為必填(選)欄位,不能為空白。">*</abbr>帳號狀態</label>
+                                        <div class="form_content form_inline">
+                                            <select id="selectSample" name="" disabled=”disabled” class="disabled" style="width:20em;">
+                                                <option value="" selected="selected">正常</option>
+                                            </select>
+                                        </div>
+                                    </div>                                   
+
+                                    <div class="form_grp">
+                                        <fieldset>
+                                            <legend class="form_title">是否可代註冊</legend>
+                                            <div class="form_content">
+                                                <div class="check_grp form_inline">
+                                                    <label><input type="checkbox" name="" value="" disabled=”disabled”>開放代註冊功能 (出版者身分限定)</label>
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                    </div>
+
+                                    <div class="btn_grp">
+                                        <button class="btn btn-submit">編修儲存</button>
+                                        <button class="btn btn-reset">刪除帳號</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- sform end --> 
+                        </div>
+                    </section>
+                    <!-- accountbox End -->
+
+
+
+                </section>
+                <!-- LP End -->
+
+            </div>
+            <!-- contentbox star -->
+        </div>
+
+    </div>
+
+    <!-- footer Start-->
+    <footer class="full">
+        <div class="container">
+            <a class="accesskey" href="#aZ" id="aZ" accesskey="Z" title="頁尾區">:::</a>
+
+            <div class="footer_info">
+                <ul class="footer_link">
+                    <li><a href="javascript:;">隱私權政策</a></li>
+                    <li><a href="javascript:;">網站安全政策</a></li>
+                    <li><a href="javascript:;">政府網站資料開放宣告</a></li>
+                </ul>
+                <p class="Copyright">國立公共資訊圖書館版權所有 © 2020 All Rights Reserved.<br>
+                建議瀏覽器：IE11.0以上、Firefox、Chrome(螢幕設定最佳顯示效果為1280*1024)</p>
+            </div>
+
+        </div>
+    </footer>
+    <!-- footer End -->
+</div>
+<a href="javascript:;" class="scrollToTop">回頁首</a>
+<!-- JQ -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<!-- 外掛 plugin js -->
+<script src="vendor/jquery.easing.min.js"></script><!-- ease -->
+
+<!-- pg-calendar -->
+<script src="vendor/pg_calendar/js/pignose.calendar.full.min.js"></script>
+<script>
+    $(function() {
+        if ($('.datepick').length > 0) {
+            $('.datepick input').pignoseCalendar({
+                lang: 'ch',
+                modal: true,
+                format: 'YYYY-MM-DD',
+            });
+        }
+    });
+</script>
+<!-- hyUI -->
+<script src="js/hyui.js"></script>
+<!-- 客製js -->
+<script src="js/customize.js"></script>
+</body>
+
+</html>

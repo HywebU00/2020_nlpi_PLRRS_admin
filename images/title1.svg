@@ -1,0 +1,24 @@
+<svg id="群組_10" data-name="群組 10" xmlns="http://www.w3.org/2000/svg" width="264" height="158" viewBox="0 0 264 158">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 24.16px;
+        fill: #5e483f;
+        text-anchor: middle;
+        font-family: jf-jinxuan;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: #5e493f;
+        stroke: #797979;
+        stroke-width: 1px;
+      }
+    </style>
+  </defs>
+  <text id="出版者" class="cls-1" transform="translate(131.672 112.517) scale(3.725)"><tspan x="0">出版者</tspan></text>
+  <rect id="矩形_1" data-name="矩形 1" class="cls-2" x="-1" y="6" width="267" height="2"/>
+  <rect id="矩形_1_拷貝" data-name="矩形 1 拷貝" class="cls-2" x="-1" width="267" height="2"/>
+  <rect id="矩形_1_拷貝_2" data-name="矩形 1 拷貝 2" class="cls-2" x="-1" y="156" width="267" height="2"/>
+  <rect id="矩形_1_拷貝_3" data-name="矩形 1 拷貝 3" class="cls-2" x="-1" y="150" width="267" height="2"/>
+</svg>

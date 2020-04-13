@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    &.noscroll {
+        position: static !important;
+        width: 100%;
+        height: 100%;
+        overflow: hidden !important;
+        overflow-y: hidden !important;
+        margin: 0;
+        padding: 0;
+    }
+}
+// 最外圍預設為100%
+.wrapper {
+    width: 100%;
+    margin: 0px auto;
+    @include screen('mobile') {
+        background: #FFF;
+        overflow: hidden;
+        overflow-y: auto;
+    }
+}
+// 整體共用container樣式，請注意首頁切版頁面的整齊
+.container {
+    padding: 0;
+    margin: 0 auto;
+    max-width: $container-max; //請看_variable.scss
+}
+.main {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    // background: url('../images/bodybg.jpg')repeat left top;
+
+    // 可先設定一個中央區塊最大寬，限制accesskey對齊
+    @include screen('mobile') {
+        padding-top: 55px;
+    }
+    h2 {
+        line-height: 1.25em;
+    }
+}
+////////////////////////////////////////////////////////////
+// 為了與首頁區隔，請在內頁加上innerpage ClassName
+.innerpage {
+    padding-top: 140px;
+    text-align: left;
+    min-width: 1000px;
+    @include screen('mobile') {
+        padding-top: 5em;
+    }
+    >.container {
+        @include gutter(); //gutter 代表左右要留白
+    }
+
+    h2{
+        font-size: 1.6em;
+        display: block;
+        margin:2em auto 1em;
+        padding:0 0 5px 0;
+        border-bottom: solid 1px #855a46;
+        line-height: 1.6em;
+        position: relative;
+        text-shadow: 1px 1px 3px #fff;
+        letter-spacing:0.05em;
+        clear: both;
+
+    }
+    h3 {
+        font-size: 1.35em;
+        padding: 8px 12px;
+        margin: 0.5em 0px;
+        // text-align: center;
+        // color:#91421e;
+        background: #eee;
+        // border-radius: 5px;
+        border-left: solid 5px #91421e;
+    }
+}

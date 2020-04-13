@@ -1,0 +1,95 @@
+.category {
+    @extend %clearfix;
+    text-align: left;
+    margin: 2em auto 1em;
+    ul {
+        @include li-reset;
+        li {
+            margin: 0px 3px 3px 0px;
+            display: block;
+            float: left;
+        }
+    }
+
+    a {
+        @include gradient(#FFF, #DDD, vertical);
+        border: 1px solid #CCC;
+        padding: .4em 1em;
+        display: block;
+        color: #333;
+        @include box-sizing();
+        border-radius:4px;
+        &:hover,
+        &:focus {
+            color: #FFF;
+            @include gradient(darken($primaryColor, 0), darken($primaryColor, 15), vertical);
+            border: 1px solid darken($primaryColor, 15);
+            box-shadow: none;
+        }
+        &.active {
+            color: #FFF;
+            @include gradient(darken($primaryColor, 0), darken($primaryColor, 15), vertical);
+        }
+        span {
+            font-size: .813em;
+            &:before {
+                content: "(";
+                display: inline-block;
+            }
+            &:after {
+                content: ")";
+                display: inline-block;
+            }
+        }
+    }
+    .title1{
+        float: left;
+        line-height: 2.5em;
+        @include screen('mobile') {
+            float: none;
+        }
+    }
+}
+.category2{
+    border-bottom: dotted 1px #ccc;
+    margin-bottom: 1em;
+    position: relative;
+    dl{
+        vertical-align: middle;
+        margin-right: 10em;
+        dt{
+            float: left;
+            padding: .3em;
+        }
+        dd{
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            a{
+                background: #555;
+                color:#fff;
+                display: block;
+                border-radius: 5px;
+                padding: .3em 1em;
+                &:hover {
+                    background: darken($aHover, 10);
+                    color: #fff;
+                    text-decoration: none;
+                    cursor: pointer;
+                    border: none;
+                    box-shadow: none;
+                    outline: none;
+
+                }
+            }
+            &.here a{
+                background: $aHover;
+            }
+        }
+    }
+    .aRightbox{
+        position: absolute;
+        top:0;
+        right: 0;
+    }
+}
