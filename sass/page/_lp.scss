@@ -286,57 +286,6 @@
         }
     }
 }
-.table_list3 {
-    table{
-        margin:.5em 0;
-        clear:both;
-        line-height: 1.6em;
-        th{
-            border-left: none;
-            border-right: none;
-        }
-        td{
-            border-left: none;
-            border-right: none;
-            vertical-align: top;padding: .8em .5em;
-            position: relative;
-
-            a{
-                padding-right: 50px;
-                display: block;
-            }
-
-        }
-        table{
-            margin: .5em 0;
-            font-size: .938em;
-            th{
-                background: #f7f0e9;
-                border: solid 1px #e9e3dd;
-                padding: .3em .5em;
-            }
-            td{
-                border: solid 1px #e9e3dd;
-                padding: .5em;
-                vertical-align: middle;
-                background: #fff;
-                ul{
-                    margin: 0;
-                    padding: 0;
-                    list-style: none;
-                    li{
-                        margin-right: 1em;
-                        display: inline-block;
-                    }
-                }
-            }
-        }
-    }
-    .btn{
-        padding: .3em 1em;
-    }
-
-}
 .aLeft{text-align: left;}
 .aCenter{text-align: center;}
 .aRight{text-align: left;}
