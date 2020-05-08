@@ -94,7 +94,7 @@ a.more {
 
 // scrollTop
 .scrollToTop {
-    width: 50px;
+    width: 40px;
     height: 60px;
     // border-radius: 50%;
     background: url(../images/gotop.png) no-repeat center top rgba(0, 0, 0, 0);
@@ -103,7 +103,7 @@ a.more {
     line-height: 50px;
     text-decoration: none;
     position: fixed;
-    bottom: 180px;
+    bottom: 120px;
     right: 0px;
     transition: .3s ease-out;
     display: none;

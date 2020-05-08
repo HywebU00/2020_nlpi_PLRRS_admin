@@ -19,7 +19,7 @@ select::-ms-expand {
 }
 
 .form_grid {
-    font-size: .938em;
+    // font-size: .938em;
     margin: .5em;
     border-top: 1px solid #fff;
     .form_grp {
@@ -27,9 +27,9 @@ select::-ms-expand {
         overflow: hidden;
         padding: .2em 0;
         p{
-            margin: .3em 0;
-            color:#666;
-            font-size: .938em;
+            margin: .2em 0;
+            color:#333;
+            // font-size: .938em;
         }
         .noverify{
             margin: 3px 5px;
@@ -55,7 +55,7 @@ select::-ms-expand {
         padding-top: 6px;
         text-align: right;
         @include screen('mobile') {
-            width: 100%;
+            // width: 100%;
         }
     }
     .form_content {
@@ -65,7 +65,7 @@ select::-ms-expand {
         @include gutter();
         overflow: hidden;
         @include screen('mobile') {
-            width: 100%;
+            // width: 100%;
         }
 
 
