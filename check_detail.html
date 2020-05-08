@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="zh-Hant" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>公共出借權登記系統</title>
+    <!--HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries [if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+<![endif]-->
+<!-- pg_calendar -->
+<link rel="stylesheet" href="vendor/pg_calendar/css/pignose.calendar.css">
+<!-- hyUI css -->
+<link rel="stylesheet" href="css/hyui.css">
+<!-- favicon -->
+<link href="images/favicon.png" rel="icon" type="image/x-icon">
+
+</head>
+
+<body>
+    <!-- 直接跳主內容區 -->
+    <a class="goCenter" href="#center" tabindex="1">按Enter到主內容區</a>
+    <!-- wrapper Start -->
+    <div class="wrapper">
+        <!-- header Start -->
+        <!-- header、block1 background同張圖需套2個位置，圖檔名稱:背景1(mainbg.jpg)、背景2(mainbg2.jpg)，可供客戶自行上稿 -->
+        <header class="header full">
+            <div class="container">
+                <a class="accesskey" href="#aU" id="aU" accesskey="U" title="網站標題" tabindex="2">:::</a>
+                <div class="weltxt">歡迎使用，Admin1024 (<a href="#">個人設定</a>)｜<span class="logintime">前次登入: 2020/2/1 15:33</span></div>
+                <!-- navigation Start -->
+                <nav class="navigation">
+                    <!-- 一組ul預設靠右 -->
+                    <!-- 兩組ul已寫JQ靠左靠右 -->
+                    <ul>
+                        <li><a href="#">登出</a></li>
+                    </ul>
+                </nav>
+                <!-- navigation End -->
+                <h1>
+                    <a href="#"><img src="images/logo.png" alt="公共出借權登記系統" /></a>
+                </h1>
+
+                <!-- noscript -->
+                <noscript> 您的瀏覽器不支援JavaScript語法，JavaScript語法並不影響內容的陳述。您可使用按鍵盤上的Ctrl鍵+ (+)鍵放大/(-)鍵縮小來改變字型大小；回到上一頁可使用瀏覽器提供的 Alt+左方向鍵(←) 快速鍵功能；列印可使用瀏覽器提供的(Ctrl+P)功能。您的瀏覽器，不支援script語法，若您的瀏覽器無法支援請點選此超連結 <a href="#">網站導覽</a>
+                </noscript>
+                <!-- menu Start -->
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#">使用者(會員)管理</a>
+                            <ul>
+                                <li><a href="#">第二層選單</a></li>
+                                <li><a href="#">會員設定</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">書籍登記管理</a>
+                            <ul>
+                                <li><a href="#">匯入借閱/書目清單</a></li>
+                                <li><a href="#">審核登記作品</a></li>
+                                <li><a href="#">登記作品設定</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">統計與結算管理</a>
+                            <ul>
+                                <li><a href="#">第二層選單</a></li>
+                                <li><a href="#">第二層選單</a></li>
+                                <li><a href="#">第二層選單</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">網站管理</a></li>
+                    </ul>
+                </nav>
+                <!-- menu End -->
+            </div>
+        </header>
+        <!-- header End -->
+        <!-- main Start -->
+        <div id="center" class="main innerpage">
+            <a class="accesskey" href="#aC" id="aC" accesskey="C" title="主要內容區">:::</a>
+
+            <div class="flex-container">
+
+                <!-- contentbox star -->
+                <div class="contentbox">
+                    <div class="breadcrumb">
+                        <ul>
+                            <li><a href="#">首頁</a></li>
+                            <li><a href="#">書籍登記管理</a></li>
+                            <li>審核登記作品</li>
+                        </ul>
+                    </div>
+                    <!-- h2節點 -->
+                    <h2 class="title">審核登記作品</h2>
+                    <h3>登記／書目作品資訊</h3>
+                    <div class="content">
+                        <!-- data-block star -->
+                        <div class="data-block"> 
+                            <div class="form_grid">
+                                <div class="form_grp">
+                                    <label for="" class="form_title">系統ID</label>
+                                    <div class="form_content">
+                                        <p>179542</p>
+                                    </div>
+                                </div>
+                                <div class="form_grp">
+                                    <label for="" class="form_title">書名</label>
+                                    <div class="form_content">
+                                        <p>名偵探柯南</p>
+                                    </div>
+                                </div>
+                                <div class="form_grp">
+                                    <label for="" class="form_title">作者</label>
+                                    <div class="form_content">
+                                        <p>青山剛昌著 ; 王敏媜等譯</p>
+                                    </div>
+                                </div>
+                                <div class="form_grp">
+                                    <label for="" class="form_title">出版社</label>
+                                    <div class="form_content">
+                                        <p>青文</p>
+                                    </div>
+                                </div>
+                                <div class="form_grp">
+                                    <label for="" class="form_title">出版年</label>
+                                    <div class="form_content">
+                                        <p>1994</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- data-block end -->
+                        <!-- collapse-block star -->
+                        <div class="collapse-block">
+                            <a href="#" class="collapsible">MARC格式</a>
+                            <div class="content">
+                                <!-- marc star -->
+                                <div class="marc">
+                                    <dl>
+                                        <dt>001</dt>
+                                        <dd>81747</dd>
+                                        <dt>003</dt>
+                                        <dd>INLPI</dd>
+                                        <dt>005</dt>
+                                        <dd>20160822153045.0</dd>
+                                        <dt>008</dt>
+                                        <dd>950421s1994    ch a   c      000 j chi d</dd>
+                                        <dt>020</dt>
+                                        <dd>|a957331147X (平裝) :|c新臺幣130元</dd>
+                                        <dt>035</dt>
+                                        <dd>|a(SPYDUS)118318</dd>
+                                        <dt>040</dt>
+                                        <dd>|aPTL|bchi|c鎧鈺</dd>
+                                        <dt>084</dt>
+                                        <dd>|a859.6|b7723|2ncsclt</dd>
+                                        <dt>100 1</dt>
+                                        <dd>|a駱 以軍|d1967-</dd>
+                                        <dt>245 10</dt>
+                                        <dd>|a和小星說童話 /|c駱以軍著 ; 幾米繪圖.</dd>
+                                        <dt>250</dt>
+                                        <dd>|a初版.</dd>
+                                        <dt>260</dt>
+                                        <dd>|a臺北市,|c民83[1994] :|b皇冠.</dd>
+                                        <dt>300</dt>
+                                        <dd>|a167面 :|b圖 ;|c21公分.</dd>
+                                        <dt>490 1</dt>
+                                        <dd>|a皇冠童書舖 ;|v8</dd>
+                                        <dt>490 1</dt>
+                                        <dd>|a皇冠叢書 ;|v第2368種</dd>
+                                        <dt>700 0</dt>
+                                        <dd>|a幾米,|d1958-</dd>
+                                        <dt>830  0</dt>
+                                        <dd>|a皇冠童書舖 ;|v8</dd>
+                                        <dt>830  0</dt>
+                                        <dd>|a皇冠叢書 ;|v第2368種</dd>
+                                    </dl>
+                                </div>
+                                <!-- marc end -->
+                            </div>
+                        </div>
+                        <!-- collapse-block end -->
+
+                        <!-- collapse-block star -->
+                        <div class="collapse-block">
+                            <a href="#" class="collapsible">對應ISBN碼</a>
+                            <div class="content">
+                                <!-- isbn star -->
+                                <div class="isbn">
+                                    <p class="info">合併共80組ISBN</p> 
+                                    <ul>
+                                        <li>9575392582 (第1冊:平裝): 新臺幣75元</li>
+                                        <li>9575393147 (第2冊:平裝): 新臺幣75元</li>
+                                        <li>9575393155 (第3冊:平裝): 新臺幣75元</li>
+                                        <li>9575394089 (第4冊:平裝): 新臺幣75元</li>
+                                        <li>9575394372 (第5冊:平裝): 新臺幣75元</li>
+                                        <li>9575394380 (第6冊:平裝): 新臺幣75元</li>
+                                        <li>9575395018 (第7冊:平裝): 新臺幣75元</li>
+                                        <li>9575392582 (第8冊:平裝): 新臺幣75元</li>
+                                        <li>9575393147 (第9冊:平裝): 新臺幣75元</li>
+                                        <li>9575393155 (第10冊:平裝): 新臺幣75元</li>
+                                        <li>9575394089 (第11冊:平裝): 新臺幣75元</li>
+                                        <li>9575394372 (第12冊:平裝): 新臺幣75元</li>
+                                        <li>9575394380 (第13冊:平裝): 新臺幣75元</li>
+                                        <li>9575395018 (第14冊:平裝): 新臺幣75元</li>
+                                        <li>9575394372 (第15冊:平裝): 新臺幣75元</li>
+                                    </ul>
+                                </div>
+                                <!-- isbn end -->
+                            </div>
+                        </div>
+                        <!-- collapse-block end -->
+
+                        <h3>登記紀錄</h3>
+
+                        <!-- data-block star -->
+                        <div class="data-block"> 
+                            <form action="" class="form_grid">
+                                <div class="form_grp">
+                                    <label for="" class="form_title"><abbr class="necessary" title="為必填(選)欄位,不能為空白。">*</abbr>作品人數(共用)</label>
+                                    <div class="form_content">
+                                        <input name="" type="" placeholder="3" value="3" style="width:4em;">
+                                        <button class="btn btn-orange" id="openModal">確認更新</button>
+                                        <p class="warn">作品人數會關連到作者補償金結算比例，此欄位一經更新、所有登記者的登記人數會一併更新</p>
+                                    </div>
+                                </div>
+                                <div class="form_grp">
+                                    <label for="" class="form_title"><abbr class="necessary" title="為必填(選)欄位,不能為空白。">*</abbr>作品登記紀錄</label>
+                                    <div class="form_content">
+                                        <p>共<span class="num">2</span>筆登記</p>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- data-block end -->
+
+                        <!-- data-block2 star -->
+                        <div class="data-block2"> 
+                            <form action="" class="form_grid">
+                                <div class="form_grp bg1">
+                                    <label for="" class="form_title"><input type="checkbox" class="checkbox-left">送審日期時間</label>
+                                    <div class="form_content">
+                                        <p>2020/3/24 17:56</p>
+                                    </div>
+                                </div>
+                                <div class="form_grp bg1">
+                                    <label for="" class="form_title">登記(送審)帳號</label>
+                                    <div class="form_content">
+                                        <p>作者｜A123456789, 劉阿淇<span><a href="#">檢視會員資訊</a></span></p>
+                                    </div>
+                                </div>
+                                <div class="form_grp">
+                                    <label for="" class="form_title">登記資訊</label>
+                                    <div class="form_content">
+                                        <p>登記作者人數：<span class="num">1</span>人</p>
+                                        <ol>
+                                            <li><a href="#">9789573311478.pdf</a><span class="view"><a class="fancybox fancybox.iframe"
+                                                href="iframe_1.html" target="_blank" class="view">預覽檔案</a></span>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <hr class="hr-dot">
+                                <div class="form_grp">
+                                    <label for="" class="form_title"><input type="checkbox" class="checkbox-left">登記項#1</label>
+                                    <div class="form_content">
+                                        <p>作者：A123456789, 劉阿淇</p>
+                                    </div>
+                                </div>
+                                <div class="form_grp">
+                                    <label for="" class="form_title">審核狀態</label>
+                                    <div class="form_content">
+                                        <p class="check2">待審核</p>
+                                        <button class="btn btn-orange">單筆審核</button>
+                                    </div>
+                                </div>
+
+                                <div class="form_grp">
+                                    <label for="" class="form_title">審核紀錄</label>
+                                    <div class="form_content">
+                                        <!-- <ol>
+                                            <li></li>
+                                        </ol> -->
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- data-block2 end -->
+
+                        <!-- data-block2 star -->
+                        <div class="data-block2"> 
+                            <form action="" class="form_grid">
+                                <div class="form_grp bg1">
+                                    <label for="" class="form_title"><input type="checkbox" class="checkbox-left">送審日期時間</label>
+                                    <div class="form_content">
+                                        <p>2020/3/12 12:22</p>
+                                    </div>
+                                </div>
+                                <div class="form_grp bg1">
+                                    <label for="" class="form_title">登記(送審)帳號</label>
+                                    <div class="form_content">
+                                        <p>出版社｜16541333, 凌網文化<span><a href="#">檢視會員資訊</a></span></p>
+                                    </div>
+                                </div>
+                                <div class="form_grp">
+                                    <label for="" class="form_title">登記資訊</label>
+                                    <div class="form_content">
+                                        <p>登記作者人數：<span class="num">3</span>人</p>
+                                        <ol>
+                                            <li><a href="#">9789573311478.pdf</a><span class="view"><a class="fancybox fancybox.iframe"
+                                                href="iframe_1.html" target="_blank" class="view">預覽檔案</a></span>
+                                            </li>
+                                            <li><a href="#">A123456789.pdf</a><span class="view"><a class="fancybox fancybox.iframe"
+                                                href="iframe_1.html" target="_blank" class="view">預覽檔案</a></span>
+                                            </li>
+                                            <li><a href="#">N16541333001.pdf</a><span class="view"><a class="fancybox fancybox.iframe"
+                                                href="iframe_1.html" target="_blank" class="view">預覽檔案</a></span>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <hr class="hr-dot">
+                                <div class="form_grp">
+                                    <label for="" class="form_title"><input type="checkbox" class="checkbox-left">登記項#1</label>
+                                    <div class="form_content">
+                                        <p>出版社：165413333, 凌網文化</p>
+                                    </div>
+                                </div>
+                                <div class="form_grp">
+                                    <label for="" class="form_title">審核狀態</label>
+                                    <div class="form_content">
+                                        <p class="check-ok2">審核通過</p>
+                                        <button class="btn" disabled="">單筆審核</button>
+                                    </div>
+                                </div>
+
+                                <div class="form_grp">
+                                    <label for="" class="form_title">審核紀錄</label>
+                                    <div class="form_content">
+                                        <ol>
+                                            <li>
+                                                2020/3/13 11:22｜<span class="check-ok3">審核通過</span>（審核者：Admin1123, 管理員1123）
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <hr class="hr-dot">
+                                <div class="form_grp">
+                                    <label for="" class="form_title"><input type="checkbox" class="checkbox-left">登記項#2</label>
+                                    <div class="form_content">
+                                        <p>出版社：165413333, 凌網文化</p>
+                                    </div>
+                                </div>
+                                <div class="form_grp">
+                                    <label for="" class="form_title">審核狀態</label>
+                                    <div class="form_content">
+                                        <p class="check-no2">重新審核</p>
+                                        <button class="btn btn-orange">單筆審核</button>
+                                    </div>
+                                </div>
+
+                                <div class="form_grp">
+                                    <label for="" class="form_title">審核紀錄</label>
+                                    <div class="form_content">
+                                        <ol>
+                                            <li>
+                                                2020/3/13 11:22｜<span class="check-ok3">審核通過</span>（審核者：Admin1123, 管理員1123）
+                                            </li>
+                                            <li>2020/3/24 17:56｜<span class="check-no3">重新審核</span>（System, 系統）</li>   
+                                        </ol>
+                                    </div>
+                                </div>
+                                <hr class="hr-dot">
+                                <div class="form_grp">
+                                    <label for="" class="form_title"><input type="checkbox" class="checkbox-left">登記項#3</label>
+                                    <div class="form_content">
+                                        <p>出版社：165413333, 凌網文化</p>
+                                    </div>
+                                </div>
+                                <div class="form_grp">
+                                    <label for="" class="form_title">審核狀態</label>
+                                    <div class="form_content">
+                                        <p class="check-no2">重新審核</p>
+                                        <button class="btn btn-orange">單筆審核</button>
+                                    </div>
+                                </div>
+
+                                <div class="form_grp">
+                                    <label for="" class="form_title">審核紀錄</label>
+                                    <div class="form_content">
+                                        <ol>
+                                            <li>
+                                                2020/3/13 11:22｜<span class="check-ok3">審核通過</span>（審核者：Admin1123, 管理員1123）
+                                            </li>
+                                            <li>2020/3/24 17:56｜<span class="check-no3">重新審核</span>（System, 系統）</li>   
+                                        </ol>
+                                    </div>
+                                </div>
+                                <hr class="hr-dot">
+                                <div class="form_grp">
+                                    <label for="" class="form_title"><input type="checkbox" class="checkbox-left">登記項#4</label>
+                                    <div class="form_content">
+                                        <p>出版社：165413333, 凌網文化</p>
+                                    </div>
+                                </div>
+                                <div class="form_grp">
+                                    <label for="" class="form_title">審核狀態</label>
+                                    <div class="form_content">
+                                        <p class="check-no2">重新審核</p>
+                                        <button class="btn btn-orange">單筆審核</button>
+                                    </div>
+                                </div>
+
+                                <div class="form_grp">
+                                    <label for="" class="form_title">審核紀錄</label>
+                                    <div class="form_content">
+                                        <ol>
+                                            <li>
+                                                2020/3/13 11:22｜<span class="check-ok3">審核通過</span>（審核者：Admin1123, 管理員1123）
+                                            </li>
+                                            <li>2020/3/24 17:56｜<span class="check-no3">重新審核</span>（System, 系統）</li>   
+                                        </ol>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                        <!-- data-block2 end -->
+                        <div class="btn_grp">
+                            <button class="btn btn-submit" id="openModal2">勾選項目批次審核</button>
+                            <button class="btn btn-submit">預覽目前結果</button>
+                        </div>
+
+
+                    </div>
+                    <!-- contentbox star -->
+                </div>
+
+            </div>
+            <!--視窗-->
+            <div id="modal1" class="modal">
+                <h2>儲存成功</h2>
+                <p>
+                    資料已變更儲存
+                </p>
+                <div class="btn_grp">
+                    <input name="" type="submit" value="確定" />
+                </div>
+            </div>
+
+            <!--視窗2-->
+            <div id="modal2" class="modal2">
+                <h2>審核登記項</h2>
+                <p>理由(審核不通過者為必填)</p>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <p>審核理由將顯示於會員端備註欄位</p>
+                <div class="btn_grp">
+                    <button class="btn btn-submit" id="openModal2-1">審核通過</button>
+                    <button class="btn btn-submit">審核不通過</button>
+                    <button class="btn btn-submit">審核不通過(並關閉編修)</button>
+                </div>
+            </div>
+
+            <!--視窗2-1-->
+            <div id="modal2-1" class="modal2-1">
+                <h2>確認批次變更？</h2>
+                <p>變更後將無法復原。確定儲存？點選「確定」確定儲存、點選「取消」返回設定</p>
+                <h3>預覽目前登記結果</h3>
+                <form action="" class="form_grid">
+                    <div class="form_grp">
+                        <label for="" class="form_title">書目資訊</label>
+                        <div class="form_content">
+                            <p>9789573311478｜登記作品名稱書名｜作者：劉阿淇; 作者A; 凌網文化｜出版社：凌網文化</p>
+                        </div>
+                    </div>
+                    <div class="form_grp">
+                        <label for="" class="form_title">作品人數</label>
+                        <div class="form_content">
+                            <input name="" type="" placeholder="3" value="3" style="width:4em;">人
+                        </div>
+                    </div>
+                    <div class="form_grp">
+                        <label for="" class="form_title">出版社數</label>
+                        <div class="form_content">
+                            <p><span class="num">1</span>家 (自動)</p>      
+                        </div>
+                    </div>
+                    <div class="form_grp">
+                        <label for="" class="form_title">登記出版社</label>
+                        <div class="form_content">
+                            <input name="" type="" placeholder="16541333 凌網文化" value="16541333 凌網文化">
+                        </div>
+                    </div>
+                    <div class="form_grp">
+                        <label for="" class="form_title">登記作者</label>
+                        <div class="form_content">
+                            <input name="" type="" placeholder="16541333 凌網文化, B123456789 作者A, A123456789 劉阿淇" value="16541333 凌網文化, B123456789 作者A, A123456789 劉阿淇">
+                        </div>
+                    </div>
+                </form>
+                <div class="btn_grp">
+                    <button class="btn btn-submit">確定儲存</button>
+                    <button class="btn btn-submit">取消</button>
+                </div>
+            </div>
+
+
+
+            <!-- footer Start-->
+            <footer class="full">
+                <div class="container">
+                    <a class="accesskey" href="#aZ" id="aZ" accesskey="Z" title="頁尾區">:::</a>
+
+                    <div class="footer_info">
+                        <ul class="footer_link">
+                            <li><a href="javascript:;">隱私權政策</a></li>
+                            <li><a href="javascript:;">網站安全政策</a></li>
+                            <li><a href="javascript:;">政府網站資料開放宣告</a></li>
+                        </ul>
+                        <p class="Copyright">國立公共資訊圖書館版權所有 © 2020 All Rights Reserved.<br>
+                        建議瀏覽器：IE11.0以上、Firefox、Chrome(螢幕設定最佳顯示效果為1280*1024)</p>
+                    </div>
+
+                </div>
+            </footer>
+            <!-- footer End -->
+        </div>
+        <a href="javascript:;" class="scrollToTop">回頁首</a>
+        <!-- JQ -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <!-- 外掛 plugin js -->
+        <script src="vendor/jquery.easing.min.js"></script><!-- ease -->
+
+        <!-- pg-calendar -->
+        <script src="vendor/pg_calendar/js/pignose.calendar.full.min.js"></script>
+        <script>
+            $(function() {
+                if ($('.datepick').length > 0) {
+                    $('.datepick input').pignoseCalendar({
+                        lang: 'ch',
+                        modal: true,
+                        format: 'YYYY-MM-DD',
+                    });
+                }
+            });
+        </script>
+        <!-- hyUI -->
+        <script src="js/hyui.js"></script>
+        <!-- fancyboxjs -->
+        <script type="text/javascript" src="vendor/fancybox/source/jquery.fancybox.pack.js"></script>
+        <link rel="stylesheet" type="text/css" href="vendor/fancybox/source/jquery.fancybox.css" media="screen">
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('.fancybox').fancybox();
+                $('.fancybox').fancybox({
+                    fitToView: true,
+                    type: 'iframe',
+                    autoSize: true,
+                    minWidth: '80%',
+                    minHeight: '90%',
+                    maxWidth: 1000,
+                    maxHeight: 1000,
+                });
+            });
+        </script>
+        <!-- 客製js -->
+        <script src="js/customize.js"></script>
+    </body>
+
+    </html>
